@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+    <title>JG</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="content">
+            <div class="logo">
+                <svg xmlns="http://www.w3.org/2000/svg" width="289.939" height="59.165" viewBox="0 0 289.939 59.165">
+                <g id="Group_1575" data-name="Group 1575" transform="translate(-53.752 -214.008)" style="isolation: isolate">
+                  <g id="Group_1515" data-name="Group 1515" transform="translate(53.752 214.008)">
+                    <path id="Path_1095" data-name="Path 1095" d="M248.829,364.743l-.051,7.611-5.723-.983a20.842,20.842,0,0,1-1.079,26.068l5.482-.942.054,7.975a29.576,29.576,0,0,0,1.317-39.729Z" transform="translate(-196.691 -354.299)" fill="#0f2d4e"/>
+                    <path id="Path_1096" data-name="Path 1096" d="M114.7,396.96l5.716.983a20.84,20.84,0,0,1-1.085-26.147l-5.951,1.023-.05-7.378a29.581,29.581,0,0,0,1.317,39.294Z" transform="translate(-106.5 -354.763)" fill="#0f2d4e"/>
+                    <path id="Path_1097" data-name="Path 1097" d="M173.977,379.512l-7.074,1.179a20.708,20.708,0,0,1-7.291,2.771V342.406a20.752,20.752,0,0,1,9.445,4.293l6.239,1.04.083-7a29.578,29.578,0,0,0-38.982.174l.08,6.822,6.49-1.082a20.772,20.772,0,0,1,8.119-3.985V383.2a20.722,20.722,0,0,1-5.943-2.46l-7.347-1.224-.081,6.838a29.583,29.583,0,0,0,36.342.151Z" transform="translate(-126.404 -333.5)" fill="#3f73af"/>
+                  </g>
+                  <text id="Trust_Circle_Referral" data-name="Trust Circle Referral" transform="translate(119.692 250.031)" fill="#3f73af" font-size="23" font-family="Montserrat-ExtraBold, Montserrat" font-weight="800" letter-spacing="-0.044em"><tspan x="0" y="0">Trust Circle Referral</tspan></text>
+                </g>
+                </svg>
+            </div>
+            <div class="text">
+                <h1>
+                    Create Account
+                </h1>
+                <h3>
+                Hi there, for continuing to use and download <br>
+                our app please sign up on this form:
+                </h3>
+            </div>
+            <div class="inputs">
+                <form action="">
+                <input id="name" type="text" class="input" placeholder="First Name">
+                <input type="text" class="input" placeholder="Last Name">
+                <input type="text" class="input" placeholder="Email Address">
+                <input type="text" class="input" autocomplete="phonenumebr" placeholder="Phone Number">
+                <div class="passworddiv">
+                  <input type="password" id="id_password" autocomplete="current-password" class="input" placeholder="Password">
+                  <i class="far fa-eye" id="togglePassword"></i>
+                </div>
+                <div class="passworddiv">
+                  <input type="password" class="input" id="confirm_password" autocomplete="current-password" placeholder="Confirm Password">
+                  <i class="far fa-eye" id="toggleConfirmPassword"></i>
+                </div>
+                <!-- <input type="text" class="input" placeholder="Occupation"> -->
+                <!-- <select name="occupation" id="secoc" class="inputsec" required> 
+                    <option value="" disabled selected hidden>Occupation</option>
+                    <option value="realestateagent">Reale Estate Agent</option>
+                    <option value="realestatebroker">Reale Estate Broker</option>
+                </select> -->
+                <div class="custom-select">
+                    <select id="secletoccupation"> 
+                        <option value="" disabled selected hidden>Occupation</option>
+                        <option value="realestateagent">Reale Estate Agent</option>
+                        <option value="realestatebroker">Reale Estate Broker</option>
+                    </select>
+                </div>
+                <div class="checkboxdiv" id="realestate-check">
+                  <h4>Occupation Categories</h4>
+                  <div class="osc-row">
+                    <div>
+                      <div class="labelche">
+                        <label  for="residential-agent">Residential</label>
+                        <input type="checkbox" name="residential-agent" id="residential-agent">
+                      </div>
+                      <div class="labelche">
+                        <label class="labelche" for="commercial-agent">Commercial</label>
+                        <input type="checkbox" name="commercial-agent" id="commercial-agent">
+                      </div>
+                    </div>
+                    <div>
+                      <div class="labelche"> 
+                        <label class="labelche" for="industrial-agent">Industrial</label>
+                        <input type="checkbox" name="industrial-agent" id="industrial-agent">
+                      </div>
+                      <div class="labelche">
+                        <label class="labelche" for="vl-agent">VL</label>
+                        <input type="checkbox" name="vl-agent" id="vl-agent">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="checkboxdiv" id="realestatebroker-check">
+                  <h4>Occupation Categories</h4>
+                  <div class="osc-row">
+                    <div>
+                      <div class="labelche">
+                        <label  for="residential-broker">Residential</label>
+                        <input type="checkbox" name="residential-broker" id="residential-broker">
+                      </div>
+                      <div class="labelche">
+                        <label class="labelche" for="commercial-broker">Commercial</label>
+                        <input type="checkbox" name="commercial-broker" id="commercial-broker">
+                      </div>
+                    </div>
+                    <div>
+                      <div class="labelche"> 
+                        <label class="labelche" for="industrial-broker">Industrial</label>
+                        <input type="checkbox" name="industrial-broker" id="industrial-broker">
+                      </div>
+                      <div class="labelche">
+                        <label class="labelche" for="vl-broker">VL</label>
+                        <input type="checkbox" name="vl-broker" id="vl-broker">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- <a href="#" class="button">Send Verification Email</a> -->
+                <button type="submit" class="button">Send Verification Email</button>
+                </form>
+            </div>
+            
+        </div>
+    </div>
+    <script src="dropdown.js"></script>
+    <script src="checkuser-occupation.js"></script>
+    <script src="passwordshowhide.js"></script>
+</body>
+</html>
